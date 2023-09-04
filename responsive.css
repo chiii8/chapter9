@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .step-box {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 90%;
+  }
+  
+  .step-box:last-child {
+    margin-bottom: 0;
+  }
+}
